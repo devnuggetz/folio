@@ -1,0 +1,9 @@
+.mainDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.mainDisplay h2{
+    font-size: 60px;
+}
