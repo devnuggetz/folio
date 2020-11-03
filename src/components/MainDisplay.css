@@ -7,3 +7,11 @@
 .mainDisplay h2{
     font-size: 60px;
 }
+.displayName{
+    text-decoration: underline;
+    color:#ff1e56;
+}
+.displayText{
+    text-decoration: underline;
+    color:#ff1e56;
+}

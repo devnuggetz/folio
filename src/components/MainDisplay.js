@@ -8,10 +8,10 @@ function MainDisplay() {
             <Typist>
             <h2>Hello! <br />
                 <Typist.Delay ms={300} />
-                I am Shuvam Kumar, <br />
+                I am <span className='displayName'>Shuvam Kumar</span>, <br />
                 <Typist.Delay ms={300} />
                 I like apples but <br />
-                not more than oranges.
+                <span className='displayText'>not more</span> than oranges.
             </h2>
             </Typist>
         </div>
