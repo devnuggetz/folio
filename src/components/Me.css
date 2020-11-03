@@ -1,0 +1,35 @@
+.me{
+    display: flex;
+}
+.me__left{
+    margin-left: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.me__left>img{
+    width: 400px;
+}
+.me__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.me__right>p{
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding: 8px;
+}
+.me__spanText{
+    text-decoration: underline;
+    color: #f9813a;
+}
+.me__right--about{
+    font-size: 28px;
+    padding: 8px;
+    margin-top: 8px;
+}
