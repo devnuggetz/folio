@@ -1,10 +1,13 @@
 import React from 'react'
 import Typist from 'react-typist'
+import { AnimatedText } from './AnimatedText'
+import './AnimatedText.Module.css'
 import './MainDisplay.css'
 
 function MainDisplay() {
     return (
         <div className='mainDisplay'>
+            
             <Typist>
             <h2>Hello! <br />
                 <Typist.Delay ms={300} />

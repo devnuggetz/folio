@@ -1,11 +1,19 @@
 import React from 'react'
+import { AnimatedText } from './AnimatedText'
 import './Navbar.css'
 
 function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar__left'>
-                <h1>Shuvam's Folio</h1>
+            <AnimatedText
+            textColor='#ffffff'
+            overlayColor='#ff1e56'
+            >
+
+            Shuvam's Folio
+            </AnimatedText>
+                
             </div>
             <div className='navbar__right'>
                 <h2>Me</h2>
