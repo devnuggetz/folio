@@ -30,3 +30,21 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar__left{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .navbar__right{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+}
