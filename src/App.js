@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      {/* <MainDisplay /> */}
-      <Me />
+      <MainDisplay />
+      {/* <Me /> */}
     </div>
   );
 }
