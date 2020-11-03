@@ -16,9 +16,17 @@ function Navbar() {
                 
             </div>
             <div className='navbar__right'>
-                <h2>Me</h2>
-                <h2>Projects</h2>
-                <h2>Contact</h2>
+            <div className="nav">
+                <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <div className="menu">
+                        <h2>Me</h2>
+                        <h2>Projects</h2>
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

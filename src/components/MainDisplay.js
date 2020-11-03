@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import Typist from 'react-typist'
-import { AnimatedText } from './AnimatedText'
 import './AnimatedText.Module.css'
 import './MainDisplay.css'
 
@@ -17,6 +16,7 @@ function MainDisplay() {
                 <span className='displayText'>not more</span> than oranges.
             </h2>
             </Typist>
+            
         </div>
     )
 }
