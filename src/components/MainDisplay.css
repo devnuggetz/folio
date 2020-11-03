@@ -36,3 +36,17 @@
         height: 80vh;
     }
 }
+@media only screen and (max-width: 600px){
+    .mainDisplay h2{
+        font-size: 40px;
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+    .mainDisplay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        padding-top: 2px;
+    }
+}
