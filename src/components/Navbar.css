@@ -1,16 +1,28 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 40px;
     margin-right: 10px;
     padding: 12px;
+    margin-bottom: 20px;
 }
 .navbar__right{
     display: flex;
     flex: 0.5;
     justify-content: space-evenly;
 }
+.navbar__left>h1{
+    letter-spacing: 6px;
+}
 .navbar__right>h2{
-    
+    letter-spacing: 4px;
+}
+.navbar__right>h2:hover{
+    background-color: white;
+    color: black;
+    padding: 6px;
+    margin: 2px;
+    border-radius: 10px;
+    cursor: pointer;
 }

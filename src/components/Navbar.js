@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar__left'>
-                <h1>Shuvam Kumar</h1>
+                <h1>Shuvam's Folio</h1>
             </div>
             <div className='navbar__right'>
                 <h2>Me</h2>
