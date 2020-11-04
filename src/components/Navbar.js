@@ -10,7 +10,6 @@ function Navbar() {
             textColor='#ffffff'
             overlayColor='#ff1e56'
             >
-
             Shuvam's Folio
             </AnimatedText>
                 
