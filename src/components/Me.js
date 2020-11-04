@@ -4,6 +4,7 @@ import './Me.css'
 function Me() {
     return (
         <div className='me'>
+            <div className='me__top'>
             <div className='me__left'>
                 <img src='https://cdn0.iconfinder.com/data/icons/social-media-network-4/48/male_avatar-512.png' alt='' />
             </div>
@@ -17,6 +18,11 @@ function Me() {
                     down below. To have a discussion on literaly any topic, drop me a text.</i>
                     </p>
                 </div>
+            </div>
+            </div>
+            
+            <div className='me__bottom'>
+
             </div>
         </div>
     )
