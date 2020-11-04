@@ -22,12 +22,18 @@ function Me() {
                     </div>
                 </div>
                 <div className='me__top--buttons'>
-                <div class="share-button">
-                    <span>Share Me</span>
-                    <label>Skills and tools</label>
-                </div>
-                    <button>Education</button>
-                    <button>Awards and Honors</button>
+                    <div class="share-button">
+                        <span>Share Me</span>
+                        <label>Skills and tools</label>
+                    </div>
+                    <div class="share-button">
+                        <span>Share Me</span>
+                        <label>Education</label>
+                    </div>
+                    <div class="share-button">
+                        <span>Share Me</span>
+                        <label>Achievements</label>
+                    </div>
                 </div>
             </div>
             

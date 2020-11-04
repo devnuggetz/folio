@@ -14,9 +14,9 @@ function App() {
   const {darkTheme, lightTheme}= theme;
   return (
     <div className="app">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <MainDisplay /> */}
-      <Me />
+      {/* <Me /> */}
     </div>
   );
 }
